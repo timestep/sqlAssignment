@@ -1,0 +1,4 @@
+SELECT users.email
+FROM orders
+INNER JOIN users
+ON orders.user_ID=users.ID;
