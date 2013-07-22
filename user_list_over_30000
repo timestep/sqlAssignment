@@ -6,4 +6,4 @@ INNER JOIN orders_products
 ON orders.id = orders_products.order_id 
 INNER JOIN products
 ON products.id = orders_products.product_id
-WHERE orders_products.quantity * products.cost > 30000
+WHERE orders_product.quantity * products.cost > 30000
